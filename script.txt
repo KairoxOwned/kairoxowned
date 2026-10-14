@@ -1,6 +1,6 @@
 
 
-local Powerstone = game.Workspace:FindFirstChild(“PowerStone”)
+local Powerstone = game.Workspace:WaitForChild(“Interactables”):FindFirstChild(“PowerStone”)
 
 print(“working”)
 if Powerstone then
