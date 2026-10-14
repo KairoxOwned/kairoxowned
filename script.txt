@@ -1,0 +1,10 @@
+
+
+local Powerstone = game.Workspace:FindFirstChild(“PowerStone”)
+
+print(“working”)
+if Powerstone then
+print(“found”)
+local Highlight = Instance.new(“Highlight”)
+Highlight.Parent = Powerstone
+end
